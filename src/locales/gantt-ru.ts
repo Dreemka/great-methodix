@@ -1,4 +1,7 @@
 export const ganttRuLocale = {
+  language: 'Русский',
+  languageTooltip: 'Выбор языка',
+  languageSwitchedTo: 'Язык переключён на: {language}',
   dateNotSet: 'Не задано',
   // Task list headers
   taskName: 'Название',
@@ -69,8 +72,6 @@ export const ganttRuLocale = {
   exportPdf: 'Экспорт PDF',
   expandAll: 'Раскрыть всё',
   collapseAll: 'Свернуть всё',
-  language: 'Язык',
-  languageTooltip: 'Выбор языка',
   lightMode: 'Светлая тема',
   darkMode: 'Тёмная тема',
   fullscreen: 'На весь экран',
@@ -145,7 +146,6 @@ export const ganttRuLocale = {
   taskDeletedSuccess: 'Задача удалена',
   selectAssignee: 'Выберите ответственного',
   customCsvExportCalled: 'Вызван пользовательский экспорт CSV',
-  languageSwitchedTo: 'Язык переключён на: {language}',
   themeSwitchedTo: 'Тема переключена на: {theme}',
   lightModeText: 'Светлая тема',
   darkModeText: 'Тёмная тема',

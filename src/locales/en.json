@@ -38,6 +38,16 @@
     "locales": {
       "ru": "Russian",
       "en": "English"
+    },
+    "tasks": {
+      "discovery": "Discovery & Scope",
+      "design": "Design Sprint",
+      "implementation": "Implementation",
+      "uat": "UAT & Launch"
+    },
+    "milestones": {
+      "kickoff": "Kickoff",
+      "launch": "Go-live"
     }
   },
   "about": {
