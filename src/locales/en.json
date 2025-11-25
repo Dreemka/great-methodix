@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "Great Methodix",
+    "description": "Starter kit with Vue 3, TypeScript, Pinia, Vue Router and localization."
+  },
+  "navigation": {
+    "home": "Home",
+    "table": "Table",
+    "about": "About"
+  },
+  "actions": {
+    "increment": "Increment",
+    "changeLocale": "Change language"
+  },
+  "home": {
+    "title": "Welcome!",
+    "subtitle": "This counter is powered by Pinia.",
+    "counter": "Current value: {count}"
+  },
+  "table": {
+    "title": "Team roster",
+    "subtitle": "Example Ant Design table with internationalized columns.",
+    "columns": {
+      "name": "Name",
+      "role": "Role",
+      "location": "Location",
+      "status": "Status"
+    },
+    "status": {
+      "active": "Active",
+      "pending": "Pending"
+    }
+  },
+  "about": {
+    "title": "Stack",
+    "description": "The project is ready for feature development with a production-grade toolkit:",
+    "stack": {
+      "vue": "Vue 3 + TypeScript with Vite tooling",
+      "vite": "Vite dev server for fast HMR",
+      "pinia": "Pinia state management",
+      "i18n": "vue-i18n localization with JSON messages",
+      "router": "Vue Router for page navigation"
+    }
+  }
+}
+

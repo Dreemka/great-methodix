@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "Great Methodix",
+    "description": "Стартовый шаблон на Vue 3, TypeScript, Pinia, Vue Router и локализации."
+  },
+  "navigation": {
+    "home": "Главная",
+    "table": "Таблица",
+    "about": "О проекте"
+  },
+  "actions": {
+    "increment": "Увеличить",
+    "changeLocale": "Сменить язык"
+  },
+  "home": {
+    "title": "Добро пожаловать!",
+    "subtitle": "Этот счетчик работает на Pinia.",
+    "counter": "Текущее значение: {count}"
+  },
+  "table": {
+    "title": "Команда",
+    "subtitle": "Пример таблицы Ant Design с переводами столбцов.",
+    "columns": {
+      "name": "Имя",
+      "role": "Роль",
+      "location": "Локация",
+      "status": "Статус"
+    },
+    "status": {
+      "active": "Активен",
+      "pending": "В ожидании"
+    }
+  },
+  "about": {
+    "title": "Стек",
+    "description": "Проект готов к разработке с производительным инструментарием:",
+    "stack": {
+      "vue": "Vue 3 + TypeScript с инструментами Vite",
+      "vite": "Vite для быстрого dev-сервера и HMR",
+      "pinia": "Pinia для управления состоянием",
+      "i18n": "vue-i18n для локализации через JSON",
+      "router": "Vue Router для навигации между страницами"
+    }
+  }
+}
+

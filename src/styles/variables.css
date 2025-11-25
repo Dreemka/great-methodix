@@ -1,0 +1,10 @@
+:root {
+  --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --text-color: #0f172a;
+  --bg-app: linear-gradient(150deg, #eef2ff 0%, #f8fafc 40%, #ffffff 100%);
+
+  --accent: #6366f1;
+  --surface: #ffffff;
+  --border: rgba(15, 23, 42, 0.08);
+}
+
