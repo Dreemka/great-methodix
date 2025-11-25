@@ -25,11 +25,11 @@ body {
 
 #app {
   min-height: 100vh;
-}
+  }
 
 a {
   color: inherit;
-}
+  }
 
 button:focus-visible,
 a:focus-visible {

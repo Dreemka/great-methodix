@@ -14,6 +14,11 @@ const router = createRouter({
       component: () => import('../views/TableView.vue'),
     },
     {
+      path: '/gantt',
+      name: 'gantt',
+      component: () => import('../views/GanttView.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),

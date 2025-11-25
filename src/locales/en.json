@@ -6,6 +6,7 @@
   "navigation": {
     "home": "Home",
     "table": "Table",
+    "gantt": "Gantt",
     "about": "About"
   },
   "actions": {
@@ -29,6 +30,14 @@
     "status": {
       "active": "Active",
       "pending": "Pending"
+    }
+  },
+  "gantt": {
+    "title": "Roadmap timeline",
+    "subtitle": "Example of jordium-gantt-vue3 with tasks, predecessors and milestones.",
+    "locales": {
+      "ru": "Russian",
+      "en": "English"
     }
   },
   "about": {

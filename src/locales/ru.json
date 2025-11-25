@@ -6,6 +6,7 @@
   "navigation": {
     "home": "Главная",
     "table": "Таблица",
+    "gantt": "Гантт",
     "about": "О проекте"
   },
   "actions": {
@@ -29,6 +30,14 @@
     "status": {
       "active": "Активен",
       "pending": "В ожидании"
+    }
+  },
+  "gantt": {
+    "title": "Дорожная карта",
+    "subtitle": "Пример jordium-gantt-vue3 с задачами, зависимостями и вехами.",
+    "locales": {
+      "ru": "Русский",
+      "en": "Английский"
     }
   },
   "about": {

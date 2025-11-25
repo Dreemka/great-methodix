@@ -7,6 +7,7 @@ import {
   HomeOutlined,
   InfoCircleOutlined,
   TableOutlined,
+  ProjectOutlined,
 } from '@ant-design/icons-vue'
 
 const { locale, t } = useI18n()
@@ -16,6 +17,7 @@ const route = useRoute()
 const menuItems = [
   { key: '/', labelKey: 'navigation.home', icon: HomeOutlined },
   { key: '/table', labelKey: 'navigation.table', icon: TableOutlined },
+  { key: '/gantt', labelKey: 'navigation.gantt', icon: ProjectOutlined },
   { key: '/about', labelKey: 'navigation.about', icon: InfoCircleOutlined },
 ]
 
@@ -66,9 +68,9 @@ const localeValue = computed({
     </a-layout-sider>
     <a-layout>
       <a-layout-header class="app-header">
-        <div>
+  <div>
           <p>{{ t('app.description') }}</p>
-        </div>
+  </div>
         <a-segmented
           size="large"
           v-model:value="localeValue"

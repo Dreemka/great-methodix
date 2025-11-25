@@ -5,6 +5,7 @@ import router from './router'
 import { i18n } from './plugins/i18n'
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/reset.css'
+import 'jordium-gantt-vue3/dist/assets/jordium-gantt-vue3.css'
 import './style.css'
 
 const app = createApp(App)
